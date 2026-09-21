@@ -1,141 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Northline Studio creates modern websites for ambitious local businesses." />
-  <title>Northline Studio — Modern Websites for Local Businesses</title>
+  <meta name="description" content="Da Manuel — pizzeria e trattoria ad Aosta. Atmosfera rustica, cucina italiana e pizza tradizionale." />
+  <title>Da Manuel — Pizzeria Trattoria Aosta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="#top">Northline<span>.</span></a>
-      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <a class="brand" href="#top"><span class="script">Da Manuel</span><small>PIZZERIA TRATTORIA</small></a>
+      <button class="menu-toggle" aria-label="Apri menu">☰</button>
       <nav class="nav-links">
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#contact" class="nav-cta">Get a quote</a>
+        <a href="#storia">Storia</a>
+        <a href="#menu">Menù</a>
+        <a href="#galleria">Galleria</a>
+        <a href="#contatti">Contatti</a>
+        <a href="#prenota" class="nav-cta">Prenota</a>
       </nav>
     </div>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <div class="eyebrow">Web design for growing businesses</div>
-          <h1>Turn your business into a brand people remember.</h1>
-          <p>We design fast, modern websites that make your business look professional, build trust, and turn visitors into customers.</p>
-          <div class="hero-actions">
-            <a href="#contact" class="btn btn-primary">Start your project</a>
-            <a href="#work" class="btn btn-secondary">See our work</a>
-          </div>
-          <div class="hero-proof">
-            <div><strong>5★</strong><span>Client satisfaction</span></div>
-            <div><strong>&lt;2s</strong><span>Typical load time</span></div>
-            <div><strong>100%</strong><span>Mobile responsive</span></div>
-          </div>
+    <section class="hero old-paper">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner reveal">
+        <p class="overline">BENVENUTI DA</p>
+        <h1>Da Manuel</h1>
+        <h2>Pizzeria Trattoria</h2>
+        <div class="ornament">✦ ✦ ✦</div>
+        <p class="hero-copy">Autentica cucina italiana nel cuore di Aosta, tra legno, pietra e profumo di forno.</p>
+        <a href="#menu" class="btn btn-primary">Scopri il nostro menù</a>
+      </div>
+    </section>
+
+    <section id="storia" class="section old-paper">
+      <div class="container story-grid">
+        <div class="reveal">
+          <p class="eyebrow">LA NOSTRA STORIA</p>
+          <h3>Tradizione, passione e buon cibo.</h3>
+          <p>Da Manuel nasce dall’amore per la cucina italiana semplice e sincera. Pizza, pasta e piatti della tradizione vengono serviti in un ambiente accogliente, rustico e familiare.</p>
+          <p>Il nostro stile richiama le vecchie trattorie di montagna: tavoli in legno, dettagli in ferro, tovaglie classiche e un’atmosfera calda che invita a restare.</p>
         </div>
-        <div class="hero-card reveal">
-          <div class="browser">
-            <div class="browser-top"><span></span><span></span><span></span></div>
-            <div class="mock-site">
-              <div class="mock-nav"></div>
-              <div class="mock-title"></div>
-              <div class="mock-copy"></div>
-              <div class="mock-copy short"></div>
-              <div class="mock-button"></div>
-              <div class="mock-grid"><div></div><div></div><div></div></div>
-            </div>
-          </div>
-          <div class="floating-card fc-one">+42% more enquiries</div>
-          <div class="floating-card fc-two">Mobile optimized ✓</div>
+        <div class="quote-card reveal">
+          <span>“Qui la buona cucina<br>è sempre di casa.”</span>
+          <div class="flag-line"></div>
         </div>
       </div>
     </section>
 
-    <section class="logo-strip">
-      <div class="container logos">
-        <span>ALTO</span><span>MONO</span><span>VERDE</span><span>LUMEN</span><span>FORMA</span>
-      </div>
-    </section>
-
-    <section id="services" class="section">
+    <section id="menu" class="section dark-section">
       <div class="container">
-        <div class="section-head reveal">
-          <div class="eyebrow">What we do</div>
-          <h2>Everything your business needs online.</h2>
-          <p>Simple, focused, and built around one goal: helping more customers choose you.</p>
+        <div class="section-head centered reveal">
+          <p class="eyebrow light">SAPORI DI CASA</p>
+          <h3>Il nostro menù</h3>
+          <p>Piatti classici, ingredienti semplici, porzioni generose.</p>
         </div>
-        <div class="cards">
-          <article class="card reveal"><div class="icon">✦</div><h3>Website Design</h3><p>Clean, custom layouts designed to make your business stand out and feel trustworthy.</p></article>
-          <article class="card reveal"><div class="icon">↗</div><h3>SEO Foundations</h3><p>Strong page structure, metadata, and performance so customers can find you more easily.</p></article>
-          <article class="card reveal"><div class="icon">◫</div><h3>Mobile Optimization</h3><p>Every page is carefully designed to look great and work smoothly on every screen size.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section section-soft">
-      <div class="container split">
-        <div class="reveal"><div class="eyebrow">Why Northline</div><h2>Built for businesses that want to look established.</h2></div>
-        <div class="about-copy reveal">
-          <p>Your website is often the first impression customers get. We make sure it feels clear, modern and credible from the first second.</p>
-          <ul>
-            <li>Custom design — no generic templates</li>
-            <li>Fast, responsive and easy to navigate</li>
-            <li>Simple process from first call to launch</li>
-            <li>Ongoing support available after launch</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="work" class="section">
-      <div class="container">
-        <div class="section-head reveal">
-          <div class="eyebrow">Recent work</div>
-          <h2>Designed to make a strong first impression.</h2>
-        </div>
-        <div class="projects">
-          <article class="project project-a reveal">
-            <div class="project-visual"><div class="project-window"><div class="project-bar"></div><div class="project-block lg"></div><div class="project-block md"></div><div class="project-pill"></div></div></div>
-            <div class="project-meta"><span>Restaurant</span><strong>Casa Verde</strong></div>
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <span class="menu-icon">🍕</span>
+            <h4>Pizza tradizionale</h4>
+            <p>Impasto fragrante, pomodoro, mozzarella e grandi classici italiani.</p>
           </article>
-          <article class="project project-b reveal">
-            <div class="project-visual"><div class="project-window"><div class="project-bar"></div><div class="project-block lg"></div><div class="project-block md"></div><div class="project-pill"></div></div></div>
-            <div class="project-meta"><span>Fitness</span><strong>Peak Studio</strong></div>
+          <article class="menu-card reveal">
+            <span class="menu-icon">🍝</span>
+            <h4>Pasta e primi</h4>
+            <p>Ricette ricche, saporite e ispirate alla cucina di trattoria.</p>
+          </article>
+          <article class="menu-card reveal">
+            <span class="menu-icon">🍷</span>
+            <h4>Vini selezionati</h4>
+            <p>Una piccola selezione pensata per accompagnare pizza, pasta e carne.</p>
+          </article>
+          <article class="menu-card reveal">
+            <span class="menu-icon">🍰</span>
+            <h4>Dolci fatti in casa</h4>
+            <p>Finali classici come tiramisù e dessert della tradizione.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="testimonial section-soft">
-      <div class="container narrow reveal">
-        <div class="quote-mark">“</div>
-        <blockquote>Northline completely changed how professional our business feels online. We started getting better-quality enquiries within the first week.</blockquote>
-        <p class="quote-author">Sofia M. — Small business owner</p>
+    <section id="galleria" class="section old-paper">
+      <div class="container">
+        <div class="section-head centered reveal">
+          <p class="eyebrow">L’ATMOSFERA</p>
+          <h3>Una trattoria di una volta.</h3>
+          <p>Un look più antico, caldo e autentico, ispirato alle pizzerie italiane tradizionali.</p>
+        </div>
+        <div class="gallery">
+          <div class="photo photo-one reveal"><span>Forno a legna</span></div>
+          <div class="photo photo-two reveal"><span>Pizza classica</span></div>
+          <div class="photo photo-three reveal"><span>Sala rustica</span></div>
+          <div class="photo photo-four reveal"><span>Dolci italiani</span></div>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="section contact">
-      <div class="container contact-box reveal">
-        <div><div class="eyebrow light">Ready to get started?</div><h2>Let’s build a website your customers trust.</h2><p>Tell us about your business and we’ll get back to you with a clear plan.</p></div>
-        <a class="btn btn-light" href="mailto:hello@example.com">Request a free quote</a>
+    <section class="features old-paper">
+      <div class="container features-grid">
+        <div><strong>Pizza</strong><span>tradizionale</span></div>
+        <div><strong>Cucina</strong><span>italiana</span></div>
+        <div><strong>Ambiente</strong><span>familiare</span></div>
+        <div><strong>Aosta</strong><span>centro storico</span></div>
+      </div>
+    </section>
+
+    <section id="prenota" class="section booking-section">
+      <div class="container booking-card reveal">
+        <div>
+          <p class="eyebrow light">PRENOTA IL TUO TAVOLO</p>
+          <h3>Una serata semplice, italiana, autentica.</h3>
+          <p>Per una cena in famiglia, con amici o per gustare una buona pizza in un’atmosfera senza tempo.</p>
+        </div>
+        <a href="tel:+390000000000" class="btn btn-light">Chiama per prenotare</a>
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer id="contatti">
     <div class="container footer-grid">
-      <div><a class="brand" href="#top">Northline<span>.</span></a><p>Modern websites for ambitious local businesses.</p></div>
-      <div class="footer-links"><a href="#services">Services</a><a href="#about">About</a><a href="#work">Work</a><a href="#contact">Contact</a></div>
+      <div class="footer-brand">
+        <span class="script">Da Manuel</span>
+        <small>PIZZERIA TRATTORIA</small>
+      </div>
+      <div>
+        <strong>Aosta</strong>
+        <p>Via [indirizzo], Aosta</p>
+      </div>
+      <div>
+        <strong>Contatti</strong>
+        <p>+39 000 000 0000<br>info@damanuel.it</p>
+      </div>
+      <div>
+        <strong>Orari</strong>
+        <p>Mar–Dom<br>12:00–14:30 / 19:00–23:00</p>
+      </div>
     </div>
-    <div class="container footer-bottom">© 2026 Northline Studio. Demo website.</div>
+    <div class="container footer-bottom">© 2026 Da Manuel Pizzeria Trattoria — Demo concept.</div>
   </footer>
 
   <script src="script.js"></script>
